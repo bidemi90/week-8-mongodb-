@@ -1,7 +1,7 @@
 mongoose  =  require('mongoose'); 
 //app  =  express(); 
 // const  MONGO_URI  =  'mongodb://localhost:27017/Week8'; 
-const  MONGO_URI  =  'mongodb+srv://abdullahsodiq2005_db_user:j7IrN6gCytdfSmVF@cluster0.k1f2why.mongodb.net/'; 
+const  MONGO_URI  =  'mongodb+srv://fuad-user:Lagos1905@cluster0.yrnjxqr.mongodb.net'; 
 mongoose.connect(MONGO_URI,  {useUnifiedTopology:  true,useNewUrlParser:  true})
  ; const  db  =  mongoose.connection; 
  
@@ -88,7 +88,7 @@ const  person_doc  =  mongoose.model('modelname',  PersonScheme,'personCollectio
 //     .catch((err) => {
 //         console.log(err);
 //     });
-//     // TASK 5 - Count all documents in the collection
+//     // TASK 6 - Count all documents in the collection
 // person_doc.countDocuments().exec()
 //     .then((count) => {
 //         console.log("\nTASK 5 - Total documents count:", count);
